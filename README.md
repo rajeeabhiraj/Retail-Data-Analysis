@@ -73,15 +73,17 @@ Data includes:
 ---
 
 ## 10. Project Structure
+```
 Fashion-Sales-Analysis
 │
 ├── data
 │   └── raw_dataset.csv
 │
 ├── dashboard
-│   └── tableau_dashboard.twbx
+│   └── tableau_dashboard.twb
 │
 ├── images
 │   └── dashboard_screenshot.png
 │
 └── README.md
+```
