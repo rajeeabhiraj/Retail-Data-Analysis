@@ -111,8 +111,10 @@ Product Design
 Guide fashion design decisions based on historical trend performance.
 
 Dashboard Preview
-
-(Insert screenshots here)
+https://github.com/rajeeabhiraj/Retail-Data-Analysis/blob/main/Retail%20Analysis-%20d1.jpg
+https://github.com/rajeeabhiraj/Retail-Data-Analysis/blob/main/Retail%20Analysis-%20d2.jpg
+https://github.com/rajeeabhiraj/Retail-Data-Analysis/blob/main/Retail%20Analysis-%20d3.jpg
+https://github.com/rajeeabhiraj/Retail-Data-Analysis/blob/main/Retail%20Analysis-%20d4.jpg
 
 Key Skills Demonstrated:
 Exploratory Data Analysis
