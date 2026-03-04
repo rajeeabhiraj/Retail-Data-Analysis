@@ -87,3 +87,8 @@ Fashion-Sales-Analysis
 │
 └── README.md
 ```
+## 👩‍💻 Author
+
+**Rajeemol Rajan**
+
+Data Analyst | Tableau | SQL | Data Visualization | Data Storytelling
