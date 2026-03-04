@@ -1,120 +1,87 @@
-# Retail-Data-Analysis
-**Fashion Retail Sales Trend Analysis Dashboard**
-1. Fashion Retail Sales Trend Analysis (2018–2022): Seasonal Demand, Product Segmentation, and Consumer Preference Insights
+# 📊 Fashion Sales Analysis Dashboard
 
-2. Description
-This project analyzes fashion retail sales trends using transaction-level data from Zara clothing stores between 2018 and 2022. The analysis explores how seasonality, gender segments, apparel categories, colors, materials, and patterns influence consumer purchasing behavior. Using Tableau dashboards, the project provides a structured analysis of revenue distribution and identifies high-performing segments that can support data-driven merchandising and marketing decisions in the fashion retail industry.
+## 1. Project Overview
+This project analyzes fashion retail sales data to identify trends in product categories, seasonal demand, and regional performance. The goal is to help business stakeholders understand which products drive revenue and where sales opportunities exist.
 
-3. Tech Stack
-- Tableau Desktop – Data visualization and dashboard development
-- Tableau Parameters & Dynamic Visibility Containers – Interactive drill-down and trend switching
-- Excel – Data cleaning and preprocessing
-- Tableau Prep – Data transformation and preparation
+---
 
-4. Data Source
-- Dataset sourced from Kaggle:
-- Fashion Trend Dataset
-- https://www.kaggle.com/datasets/fashionworldda/fashion-trend-dataset
+## 2. Business Problem
+Retail businesses often struggle to identify:
+- High-performing product categories
+- Seasonal demand patterns
+- Regional sales differences
 
-The dataset contains sales transaction information including:
+This project analyzes sales data to generate insights that can help improve inventory planning and marketing strategy.
 
-- Product category
-- Gender segment
-- Color
-- Fabric material
-- Pattern
-- Seasonal classification
-- Revenue and sales volume
-- Year (2018–2022)
+---
 
-5. Features and Highlights
+## 3. Key Business Questions
+- Which product categories generate the highest revenue?
+- How does sales volume change over time?
+- Which regions contribute the most to total sales?
+- What seasonal trends exist in fashion sales?
 
-- Interactive Dashboard Components
-- The dashboard is designed as an explanatory analytical tool to guide stakeholders through multiple layers of sales performance analysis.
-- Executive KPIs
-- Total Sales Volume: 175,265 units
-- Total Revenue: $14.9M
-- Provides a high-level overview of retail performance across all segments.
-- Seasonal Revenue Analysis
-- Analyzes how revenue shifts across different seasons.
+---
 
-6. Key finding:
-- Spring generated the highest revenue
-- Summer showed the lowest sales performance
-- This suggests stronger consumer demand during transitional fashion seasons.
-- Gender and Category Segmentation
-- Breaks down seasonal sales performance by:
-- Ladies
-- Gents
-- Drill-down functionality enables deeper analysis of product categories within gender segments.
+## 4. Data Source
+Dataset: Fashion Retail Sales Dataset
 
-7. Insight:
-- Women's categories such as Blouses and Dresses show strong performance during Spring seasons.
-- Trend Exploration (Interactive Parameter)
-- Users can switch between multiple trend analyses using a parameter-driven selector.
+Data includes:
+- Product Category
+- Sales Volume
+- Region
+- Date
+- Revenue
 
-8. Available views:
-- Color Trend Analysis
-- Material-wise Sales Analysis
-- Pattern Trend Analysis
-- This allows analysts to evaluate consumer preference trends across multiple product attributes.
-- Color Trend Analysis
-- A bump chart (ranking trend visualization) tracks the top-selling colors across seasons from 2018 to 2022.
+---
 
-9. Key insights:
-- Red and Black consistently rank among the top colors
-- Certain colors dominate specific seasons
-- Seasonal color preferences show recurring patterns
-- This insight can guide product design and inventory planning.
-- Material Trend Analysis
-- Analyzes sales performance of fabrics such as: Denim,Cotton,Leather,Wool,Synthetic
+## 5. Tools & Technologies
+- Tableau (Data Visualization)
+- Tableau Prep (Data Cleaning)
+- Excel (Data Preparation)
 
-10. Key insights:
-- Denim and synthetic materials show consistent demand
-- Fabric popularity fluctuates seasonally
-- Useful for supply chain and material sourcing decisions.
-- Pattern Trend Analysis
-- Tracks the popularity of fashion patterns across seasons: Geometric,Plain,Polka Dots,Striped,Floral,Heart
+---
 
-11. Key insight:
-- Certain patterns remain consistently popular across years, while others show seasonal fluctuations.
+## 6. Data Analysis Process
+1. Cleaned and structured raw data using Tableau Prep and Excel.
+2. Organized datasets into categories and time-based metrics.
+3. Created calculated fields for sales growth and category comparisons.
+4. Designed interactive dashboards to visualize trends and insights.
 
-12. Business Problem
-- Fashion retailers must understand how consumer preferences shift across seasons, materials, colors, and patterns to optimize product assortment and inventory.
-- Without proper analysis, retailers risk:
-- Overstocking low-demand products
-- Missing seasonal demand spikes
-- Inefficient marketing campaigns
-- This project addresses these challenges by analyzing historical sales patterns and consumer preferences.
+---
 
-13. Key Business Questions
-- Which seasons generate the highest revenue in fashion retail?
-- How do sales vary between men's and women's apparel?
-- Which product attributes (color, material, pattern) influence purchasing decisions?
-- Are certain trends consistent across multiple years?
-- How can retailers optimize inventory and merchandising strategies based on historical trends?
+## 7. Dashboard Features
+- Interactive filters for category and region
+- Drill-down functionality to explore detailed sales patterns
+- Time series analysis of sales trends
+- Bump chart showing product category performance
 
-14. Business Impact and Insights
-- The analysis provides insights that can support retail strategy decisions, including:
-  - Merchandising Strategy
-  - Identify top-performing apparel categories and seasonal product demand.
-  - Inventory Optimization
-  - Align inventory planning with seasonal and product attribute demand patterns.
-  - Marketing Campaigns
-  - Target promotions based on popular colors, materials, and patterns.
-  - Product Design
-  - Guide fashion design decisions based on historical trend performance.
+---
 
-15. Dashboard Preview
-- https://github.com/rajeeabhiraj/Retail-Data-Analysis/blob/main/Retail%20Analysis-%20d1.jpg
-- https://github.com/rajeeabhiraj/Retail-Data-Analysis/blob/main/Retail%20Analysis-%20d2.jpg
-- https://github.com/rajeeabhiraj/Retail-Data-Analysis/blob/main/Retail%20Analysis-%20d3.jpg
-- https://github.com/rajeeabhiraj/Retail-Data-Analysis/blob/main/Retail%20Analysis-%20d4.jpg
+## 8. Key Insights
+- Certain product categories consistently outperform others.
+- Sales volume increases during seasonal shopping periods.
+- Some regions show stronger demand for fashion products.
+- Trend analysis helps identify opportunities for targeted marketing.
 
-16. Key Skills Demonstrated:
-- Exploratory Data Analysis
-- Business Trend Analysis
-- Time-based Trend Evaluation
-- Product Segmentation
-- Dashboard Design for Decision Support
-- Interactive Data Visualization
+---
+
+## 9. Dashboard
+🔗 View Interactive Dashboard  
+[[Tableau Public Link Here](https://public.tableau.com/views/Final-FashionDataset/SalesVolumeTrends?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)]
+
+---
+
+## 10. Project Structure
+Fashion-Sales-Analysis
+│
+├── data
+│   └── raw_dataset.csv
+│
+├── dashboard
+│   └── tableau_dashboard.twbx
+│
+├── images
+│   └── dashboard_screenshot.png
+│
+└── README.md
